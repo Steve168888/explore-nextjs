@@ -12,7 +12,7 @@ const LoginPage = () => {
             <h1>Login Page</h1>
             <button onClick={() => handlerLogin ()}>Login</button>
             <p> 
-                Belum punya akun? Registrasi <Link href={"/auth/register"}>disini</Link>
+                Belum punya akun? Registrasi <Link href={"/auth/register"}><button >disini</button></Link>
             </p>
         </div>
     );
