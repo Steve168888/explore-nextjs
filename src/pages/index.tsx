@@ -1,14 +1,17 @@
 
 import { Inter } from "next/font/google";
+import Head from "next/head";
 
 
 
 
 export default function Home() {
   return (
-<div>
-       
-        <h1>hello world</h1>
-</div>
+    <div>
+        <Head>
+          <title>Home</title>
+        </Head>
+          <h1>hello world</h1>
+    </div>
   );
 }
